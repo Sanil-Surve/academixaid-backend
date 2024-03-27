@@ -2,7 +2,7 @@ const OpenAI = require('openai');
 const Question = require('../models/Question');
 
 const openai = new OpenAI({
-  apiKey: process.env.OPEN_AI_API_KEY,
+  apiKey: process.env.OPENAI_API_KEY,
 });
 
 console.log(openai)
